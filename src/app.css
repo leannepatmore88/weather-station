@@ -1,0 +1,21 @@
+.weaterStation {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+
+.dataContainer {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 300px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .weaterStation {
+    width: 1024px;
+    flex-wrap: nowrap;
+  }
+}
